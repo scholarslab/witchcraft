@@ -104,6 +104,10 @@ add_action( 'widgets_init', 'witchcraft_widgets_init' );
 function witchcraft_scripts() {
 	wp_enqueue_style( 'witchcraft-style', get_stylesheet_uri() );
 
+	// Add Google Fonts: Fira Sans and Merriweather
+	// wp_enqueue_style( 'witchcraft-google-fonts', 'https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700,700i|Merriweather:400,400i,700,700i');
+	wp_enqueue_style( 'witchcraft-local-fonts', get_template_directory_uri() . '/fonts/custom-fonts.css' );
+
 	wp_enqueue_script( 'witchcraft-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'witchcraft-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );

@@ -1,4 +1,4 @@
-/*
+  /*
 Theme Name: Witchcraft
 Theme URI: http://underscores.me/
 Author: Tingdan Luo, Scholars\' Lab, UVA Library
@@ -33,8 +33,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Accessibility
 # Alignments
 # Clearings
+# Header
 # Widgets
 # Content
+	## Global
 	## Posts and pages
 	## Comments
 # Infinite scroll
@@ -54,6 +56,7 @@ html {
 
 body {
 	margin: 0;
+	position: relative;
 }
 
 article,
@@ -265,11 +268,16 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
-	font-family: sans-serif;
+	color: #000;
+	font-family: 'Merriweather', serif;
 	font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.5;
+}
+
+.site-content {
+	font-size: 1.125em;
+	line-height: : 1.6em;
 }
 
 h1,
@@ -278,8 +286,20 @@ h3,
 h4,
 h5,
 h6 {
+	font-family: 'Fira Sans', sans-serif;
 	clear: both;
+	line-height: 1.3em;
+	margin-top: 2.5rem;
+	margin-bottom: 1rem;
 }
+
+h1 { font-size: 2.4em; }
+h2 { font-size: 2.2em; }
+h3 { font-size: 2em; }
+h4 { font-size: 1.8em; }
+h5 { font-size: 1.6em; }
+h6 { font-size: 1.4em; }
+
 
 p {
 	margin-bottom: 1.5em;
@@ -506,6 +526,7 @@ textarea {
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
+
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
@@ -537,21 +558,21 @@ a:active {
 --------------------------------------------------------------*/
 .main-navigation {
 	clear: both;
-	display: block;
-	float: left;
+	display: table;
 	width: 100%;
 }
 
 .main-navigation ul {
-	display: none;
+	display: table;
 	list-style: none;
-	margin: 0;
-	padding-left: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: -36px;
+	width: 652px;
 }
 
 .main-navigation li {
-	float: left;
-	position: relative;
+	display:inline-block;
 }
 
 .main-navigation a {
@@ -646,6 +667,51 @@ a:active {
 	width: 50%;
 }
 
+
+/* Home */
+.menu-item-1541 {
+	background-color: #ffffcc;
+	width: 13%;
+	margin-left: -4px;
+	left: 0;
+}
+
+/* Archives */
+.menu-item-1546 {
+	background-color: #6584ba;
+	width: 15%;
+	margin-left: -4px;
+}
+
+/* Books & Letters */
+.menu-item-1545 {
+	background-color: #d99c5a;
+	width: 24%;
+	margin-left: -4px;
+}
+
+/* Documents */
+.menu-item-1544 {
+	background-color: #838d75;
+	width: 20%;
+	margin-left: -4px;
+}
+
+/* Map */
+.menu-item-1543 {
+	background-color: #864654;
+	width: 13%;
+	margin-left: -4px;
+}
+
+/* People */
+.menu-item-1542 {
+	background-color: #838d75;
+	width: 15%;
+	margin-left: -4px;
+}
+
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
@@ -735,6 +801,27 @@ a:active {
 }
 
 /*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.site-header {
+	text-align: center;
+	border: 5px solid red;
+	width: 624px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:20px;
+	border-style:double;
+	border-color:silver;
+}
+
+.site-branding {
+	text-align: center;
+	margin-top: -28px;
+}
+
+
+
+/*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
 .widget {
@@ -749,6 +836,34 @@ a:active {
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## Global
+--------------------------------------------------------------*/
+/*.site-main {
+	font-size: .8em;
+	line-height: 1.6em;
+}
+
+@media screen and (min-width: 30em) {
+	.site-main {
+		margin: 1.8em;
+	}
+}
+
+@media screen and (min-width: 40em) {
+	.site-main {
+		font-size: 1em;
+	}
+}
+
+@media screen and (min-width: 57em) {
+	.site-main {
+		max-width: 45em;
+		margin: 1.8em auto;
+	}
+}*/
+
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
