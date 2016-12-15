@@ -531,7 +531,7 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: blue;
 }
 
 a:visited {
@@ -573,6 +573,8 @@ a:active {
 
 .main-navigation li {
 	display:inline-block;
+	font-weight: bold;
+
 }
 
 .main-navigation a {
@@ -819,6 +821,124 @@ a:active {
 	margin-top: -28px;
 }
 
+
+.page-id-1734 .site-header,
+.page-id-1774 .site-header,
+.page-id-1777 .site-header,
+.page-id-1782 .site-header,
+.page-id-1788 .site-header,
+.page-id-1791 .site-header,
+.page-id-1793 .site-header,
+.page-id-1795 .site-header,
+.page-id-1807 .site-header,
+.page-id-1809 .site-header,
+.page-id-1811 .site-header,
+.page-id-1813 .site-header,
+.page-id-1816 .site-header,
+.page-id-1820 .site-header,
+.page-id-1822 .site-header,
+.page-id-1824 .site-header,
+.page-id-1826 .site-header,
+.page-id-1828 .site-header,
+.page-id-1830 .site-header,
+.page-id-1832 .site-header,
+.page-id-1834 .site-header,
+.page-id-1836 .site-header,
+.page-id-1846 .site-header,
+.page-id-1849 .site-header,
+.page-id-1850 .site-header,
+.page-id-1851 .site-header,
+.page-id-1852 .site-header,
+.page-id-1857 .site-header,
+.page-id-1858 .site-header,
+.page-id-1859 .site-header,
+.page-id-1860 .site-header,
+.page-id-1861 .site-header,
+.page-id-1862 .site-header,
+.page-id-1863 .site-header,
+.page-id-1874 .site-header,
+.page-id-1875 .site-header,
+.page-id-1876 .site-header,
+.page-id-1880 .site-header,
+.page-id-1881 .site-header,
+.page-id-1970 .site-header,
+.page-id-1971 .site-header,
+.page-id-1972 .site-header,
+.page-id-1976 .site-header,
+.page-id-1977 .site-header,
+.page-id-1978 .site-header,
+.page-id-1979 .site-header,
+.page-id-1980 .site-header,
+.page-id-1981 .site-header,
+.page-id-1982 .site-header,
+.page-id-1983 .site-header,
+.page-id-1984 .site-header,
+.page-id-1985 .site-header,
+.page-id-1996 .site-header,
+.page-id-1998 .site-header,
+.page-id-1999 .site-header,
+.page-id-2002 .site-header,
+.page-id-2003 .site-header,
+.page-id-2004 .site-header,
+.page-id-2005 .site-header,
+.page-id-2006 .site-header,
+.page-id-2007 .site-header,
+.page-id-2008 .site-header,
+.page-id-2009 .site-header,
+.page-id-2010 .site-header,
+.page-id-2011 .site-header,
+.page-id-2036 .site-header,
+.page-id-2038 .site-header,
+.page-id-2039 .site-header,
+.page-id-2040 .site-header,
+.page-id-2041 .site-header,
+.page-id-2042 .site-header,
+.page-id-2054 .site-header,
+.page-id-2056 .site-header,
+.page-id-2058 .site-header,
+.page-id-2059 .site-header,
+.page-id-2060 .site-header,
+.page-id-2070 .site-header,
+.page-id-2071 .site-header,
+.page-id-2072 .site-header,
+.page-id-2073 .site-header,
+.page-id-2074 .site-header,
+.page-id-2080 .site-header,
+.page-id-2081 .site-header,
+.page-id-2084 .site-header,
+.page-id-2086 .site-header,
+.page-id-2088 .site-header,
+.page-id-2090 .site-header,
+.page-id-2092 .site-header,
+.page-id-2094 .site-header,
+.page-id-2095 .site-header,
+.page-id-2096 .site-header,
+.page-id-2097 .site-header,
+.page-id-2098 .site-header,
+.page-id-2099 .site-header,
+.page-id-2100 .site-header,
+.page-id-2101 .site-header,
+.page-id-2102 .site-header,
+.page-id-2103 .site-header,
+.page-id-2104 .site-header,
+.page-id-2105 .site-header,
+.page-id-2106 .site-header,
+.page-id-2107 .site-header,
+.page-id-2108 .site-header,
+.page-id-2109 .site-header,
+.page-id-2126 .site-header,
+.page-id-2127 .site-header,
+.page-id-2128 .site-header,
+.page-id-2129 .site-header,
+.page-id-2130 .site-header,
+.page-id-2131 .site-header,
+.page-id-2132 .site-header,
+.page-id-2133 .site-header,
+.page-id-2134 .site-header,
+.page-id-2135 .site-header
+ {
+    display: none;
+}
 
 
 /*--------------------------------------------------------------
